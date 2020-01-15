@@ -1,8 +1,5 @@
 <script>
 import { fade } from 'svelte/transition'
-import { Route } from 'svelte-router-spa'
-
-export let currentRoute
 
 function toggleMenu(event){
 	const ulMenu = document.querySelector('div#menu ul')
@@ -11,7 +8,9 @@ function toggleMenu(event){
 }
 </script>
 
-<Route {currentRoute} />
+<svelte:head>
+	<title>Portfolio</title>
+</svelte:head>
 
 <section class="container is-marginless">
 

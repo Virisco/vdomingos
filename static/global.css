@@ -12,5 +12,5 @@ body {
 }
 
 .hero-image{
-	background: url('assets/hero.jpg') 100% / cover no-repeat;
+	background: url('hero.jpg') 100% / cover no-repeat;
 }
