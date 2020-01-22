@@ -1,14 +1,9 @@
 <script>
 import { Router } from 'svelte-router-spa'
 import { routes } from './routes'
-
 </script>
 
 <main>
-	<nav>
-		<a href="/">Home</a>
-		<a href="/portfolio/2">portfolio</a>
-	</nav>
 	<Router {routes} />
 
 	<footer class="section hero is-info is-small">

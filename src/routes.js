@@ -1,5 +1,5 @@
 import Home from './pages/Home.svelte'
-import ItemPortfolio from './pages/ItemPortfolio.svelte'
+import Portfolio from './pages/Portfolio.svelte'
 
 const routes = [
 	{
@@ -8,7 +8,7 @@ const routes = [
 	},
 	{
 		name: 'portfolio/:item',
-		component: ItemPortfolio
+		component: Portfolio
 	}
 ]
 

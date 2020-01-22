@@ -3,6 +3,7 @@ import { fade } from 'svelte/transition'
 import { Route } from 'svelte-router-spa'
 
 export let currentRoute
+const { item } = currentRoute.namedParams
 
 function toggleMenu(event){
 	const ulMenu = document.querySelector('div#menu ul')
@@ -41,7 +42,7 @@ function toggleMenu(event){
 
 	<div class="hero is-large hero-image-portfolio">
 		<div class="hero-body">
-			<h2 class="title has-text-centered has-text-white">Item do portfolio</h2>
+			<h2 class="title has-text-centered has-text-white">Item do portfolio nº {item}</h2>
 		</div>
 
 	</div>
